@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "nubian_desert"
+    },
+    "components": {
+      "minecraft:climate": {
+        "temperature": 2.0,
+        "downfall": 0.0
+      },
+      "minecraft:surface_parameters": {
+        "sea_floor_depth": 1,
+        "sea_floor_material": "sudan:sudanese_sand",
+        "foundation_material": "sudan:laterite_stone",
+        "surface_material": "sudan:sudanese_sand",
+        "surface_density": 0.9
+      },
+      "minecraft:desert_surface": {},
+      "minecraft:fog_identifier": {
+        "fog_identifier": "sudan:desert_fog"
+      },
+      "minecraft:tags": {
+        "tags": ["desert", "nubian", "sudan", "hot", "dry", "has_structure/pyramid_ruin"]
+      }
+    }
+  }
+}
