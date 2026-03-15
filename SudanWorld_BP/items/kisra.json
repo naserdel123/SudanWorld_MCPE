@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sudan:kisra",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:use_duration": 1.6,
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "can_always_eat": false
+      },
+      "minecraft:icon": {
+        "texture": "kisra"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.items"
+      }
+    }
+  }
+}
