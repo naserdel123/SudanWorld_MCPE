@@ -1,0 +1,149 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "sudan:nubian_villager",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "sudan:nubian_adult": {
+        "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/entities/nubian_villager.json"
+        },
+        "minecraft:trade_table": {
+          "display_name": "entity.sudan:nubian_villager.name",
+          "table": "trading/nubian_trading.json"
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["villager", "nubian", "mob"]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:nameable": {},
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.5
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "can_open_doors": true,
+        "can_pass_doors": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.trade_with_player": {
+        "priority": 1
+      },
+      "minecraft:behavior.look_at_trading_player": {
+        "priority": 2
+      },
+      "minecraft:behavior.panic": {
+        "priority": 1,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 2,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "monster"
+            },
+            "walk_speed_multiplier": 0.6,
+            "sprint_speed_multiplier": 0.6
+          }
+        ]
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 3,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.take_flower": {
+        "priority": 7
+      },
+      "minecraft:behavior.play": {
+        "priority": 8,
+        "speed_multiplier": 0.32
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 9,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 10,
+        "look_distance": 8,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 11
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:scheduler": {
+        "min_delay_secs": 0,
+        "max_delay_secs": 10,
+        "scheduled_events": [
+          {
+            "filters": [
+              {
+                "test": "has_component",
+                "operator": "!=",
+                "value": "minecraft:scheduler"
+              }
+            ],
+            "event": "minecraft:entity_spawned"
+          }
+        ]
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["sudan:nubian_adult"]
+        }
+      }
+    }
+  }
+}
