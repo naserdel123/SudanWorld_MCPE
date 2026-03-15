@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:structure": {
+    "description": {
+      "identifier": "sudan:nubian_house"
+    },
+    "structure": {
+      "format_version": "1.20.0",
+      "size": [5, 4, 5],
+      "structure_world_origin": [0, 0, 0],
+      "block_indices": [
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+      ],
+      "palette": {
+        "default": {
+          "block_palette": [
+            {
+              "name": "sudan:laterite_stone",
+              "states": {}
+            },
+            {
+              "name": "minecraft:air",
+              "states": {}
+            }
+          ]
+        }
+      }
+    }
+  }
+}
