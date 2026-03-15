@@ -1,0 +1,92 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "gives": [
+            {
+              "item": "sudan:dates",
+              "quantity": 6
+            }
+          ],
+          "max_uses": 16,
+          "reward_xp": 2
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 2
+            }
+          ],
+          "gives": [
+            {
+              "item": "sudan:kisra",
+              "quantity": 4
+            }
+          ],
+          "max_uses": 12,
+          "reward_xp": 3
+        },
+        {
+          "wants": [
+            {
+              "item": "sudan:dates",
+              "quantity": 8
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "max_uses": 12,
+          "reward_xp": 2
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 5
+            }
+          ],
+          "gives": [
+            {
+              "item": "sudan:jallabiya",
+              "quantity": 1
+            }
+          ],
+          "max_uses": 3,
+          "reward_xp": 5
+        },
+        {
+          "wants": [
+            {
+              "item": "minecraft:gold_ingot",
+              "quantity": 3
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald",
+              "quantity": 1
+            }
+          ],
+          "max_uses": 12,
+          "reward_xp": 5
+        }
+      ]
+    }
+  ]
+}
