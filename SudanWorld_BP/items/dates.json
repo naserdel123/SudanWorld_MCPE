@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sudan:dates",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:use_duration": 1.6,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": "good",
+        "can_always_eat": false
+      },
+      "minecraft:icon": {
+        "texture": "dates"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.items"
+      }
+    }
+  }
+}
