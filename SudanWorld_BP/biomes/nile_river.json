@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "nile_river"
+    },
+    "components": {
+      "minecraft:climate": {
+        "temperature": 1.2,
+        "downfall": 0.4
+      },
+      "minecraft:surface_parameters": {
+        "sea_floor_depth": 7,
+        "sea_floor_material": "sudan:nile_mud",
+        "foundation_material": "minecraft:stone",
+        "surface_material": "sudan:nile_mud",
+        "surface_density": 0.5,
+        "water_surface_material": "minecraft:water"
+      },
+      "minecraft:swamp_surface": {},
+      "minecraft:fog_identifier": {
+        "fog_identifier": "sudan:nile_fog"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "sudan:nile_water"
+      },
+      "minecraft:tags": {
+        "tags": ["river", "nile", "sudan", "hot", "wet"]
+      }
+    }
+  }
+}
