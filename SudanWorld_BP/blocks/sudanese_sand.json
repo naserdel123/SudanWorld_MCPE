@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "sudan:sudanese_sand",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_mining": {
+        "seconds": 0.5
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#C2B280",
+      "minecraft:loot": "loot_tables/blocks/sudanese_sand.json"
+    }
+  }
+}
