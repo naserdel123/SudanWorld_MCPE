@@ -1,0 +1,25 @@
+# Blocks
+tile.sudan:nile_mud.name=Nile Mud
+tile.sudan:sudanese_sand.name=Sudanese Sand
+tile.sudan:laterite_stone.name=Laterite Stone
+tile.sudan:acacia_log_dried.name=Dried Acacia Log
+
+# Items
+item.sudan:dates.name=Dates
+item.sudan:kisra.name=Kisra
+item.sudan:jallabiya.name=Jallabiya
+item.sudan:nile_water_bucket.name=Nile Water Bucket
+
+# Entities
+entity.sudan:camel.name=Sudanese Camel
+entity.sudan:scorpion.name=Desert Scorpion
+entity.sudan:nubian_villager.name=Nubian Villager
+
+# Biomes
+biome.nile_river.name=Nile River
+biome.nubian_desert.name=Nubian Desert
+biome.savanna_sudan.name=Sudanese Savanna
+biome.khartoum_city.name=Khartoum City
+
+# Actions
+action.interact.ride.camel=Ride Camel
