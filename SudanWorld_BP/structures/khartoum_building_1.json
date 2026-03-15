@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:structure": {
+    "description": {
+      "identifier": "sudan:khartoum_building_1"
+    },
+    "structure": {
+      "format_version": "1.20.0",
+      "size": [7, 5, 7],
+      "structure_world_origin": [0, 0, 0],
+      "block_indices": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 2, 1, 0, 0, 1, 2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+      ],
+      "entities": [],
+      "palette": {
+        "default": {
+          "block_palette": [
+            {
+              "name": "sudan:laterite_stone",
+              "states": {}
+            },
+            {
+              "name": "minecraft:air",
+              "states": {}
+            },
+            {
+              "name": "minecraft:glass",
+              "states": {}
+            }
+          ],
+          "block_position_data": {}
+        }
+      }
+    }
+  }
+}
