@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "savanna_sudan"
+    },
+    "components": {
+      "minecraft:climate": {
+        "temperature": 1.5,
+        "downfall": 0.2
+      },
+      "minecraft:surface_parameters": {
+        "sea_floor_depth": 3,
+        "sea_floor_material": "minecraft:dirt",
+        "foundation_material": "minecraft:stone",
+        "surface_material": "minecraft:grass_block",
+        "surface_density": 0.6
+      },
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          ["warm", 1]
+        ]
+      },
+      "minecraft:fog_identifier": {
+        "fog_identifier": "sudan:savanna_fog"
+      },
+      "minecraft:tags": {
+        "tags": ["savanna", "sudan", "plains", "hot", "has_structure/acacia_savanna_tree"]
+      }
+    }
+  }
+}
